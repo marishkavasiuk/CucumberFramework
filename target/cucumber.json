@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login into account with correct details",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 777757600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6204640800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens home page",
+            "match": {
+              "location": "HomeStep.user_opens_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 459405600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the login button on homepage",
+            "match": {
+              "location": "HomeStep.user_clicks_on_the_login_button_on_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166426400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "LoginStep.user_enters_a_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95098900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "LoginStep.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72646700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "LoginStep.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3101866800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be taken to the successful login page",
+            "match": {
+              "location": "LoginStep.user_should_be_taken_to_the_successful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "Existing stackoverflow user should be able to login into account using correct credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search answers",
+        "description": "",
+        "id": "search-answers;search-answers",
+        "after": [
+          {
+            "result": {
+              "duration": 759051500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5134433200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens home page",
+            "match": {
+              "location": "HomeStep.user_opens_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281915600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters a valid request",
+            "match": {
+              "location": "SearchStep.user_enters_request_to_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1415061800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks search",
+            "match": {
+              "location": "SearchStep.user_clicks_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88655400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should get correct response",
+            "match": {
+              "location": "SearchStep.user_should_get_correct_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search answers",
+    "description": "Existing stackoverflow user should be able to find answer for his question",
+    "id": "search-answers",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
